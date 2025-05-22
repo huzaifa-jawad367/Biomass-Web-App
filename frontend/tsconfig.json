@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "app/actions.js", "components/form-message.jsx", "components/submit-button.jsx", "app/(auth-pages)/sign-in/page.jsx", "app/(auth-pages)/layout.jsx", "app/(auth-pages)/smtp-message.jsx", "app/(auth-pages)/forgot-password/page.jsx", "app/(auth-pages)/sign-up/page.jsx", "app/protected/page.jsx", "app/reset-password/page.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
